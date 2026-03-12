@@ -1,9 +1,6 @@
-Final Business Analytics Project Report Template
-Title Page
-Name: Will Bundy
-Project Title: Business Analytics Project Report
-Course: CAI3801.903F25.96788 AI & Analytics
-Semester: Fall 2025
+### Business Analytics Project Report Template
+Will Bundy
+### Project Title: Business Analytics Project Report For Superstore Retail
 ### Part 1: Business Problem and Objectives
 Business Domain: Sales & Operations (Retail Analytics)
 Problem Statement: The superstore is making decent sales, but profits are all over the place, some stuff makes money, a lot of stuff loses money. Management doesn’t really know which products, regions, or customers are dragging profits down or which ones are worth pushing harder. Right now, they’re kind of lost with discounts and inventory decisions, so the main goal of this project is to figure out what’s killing or boosting profit and give them clear recommendations.
@@ -119,11 +116,12 @@ Part 4: Dashboard Overview
  
  
 I built the dashboard in two pages
-Page 1 – Performance
+### Page 1 – Performance
 •	Top-line KPIs: $732K sales (+20% YoY), $94K profit (+15%), units +25%
 •	Big forecast chart with the Q4 spike
 •	Dual axis sales vs. profit chart so you can see they track together
-Page 2 – The Real Problems
+
+### Page 2 – The Real Problems
 •	Profit tree map: only Copiers, Paper, Accessories, and Phones make real money
 •	Pareto: 4-5 products carry basically the whole company
 •	What if analysis chart: we would be throwing away $200K + a year on discounts
@@ -131,13 +129,13 @@ Page 2 – The Real Problems
 •	Order Segmentation: most orders are small and make almost nothing
 Red = bad, green = good, everything has region/category filters. The flow is simple: Page 1 shows we grew, Page 2 shows we’re still fragile and one bad move can destroy the company.
 Part 5: Project Conclusions
-Key Findings:
+### Key Findings:
 1.	80% of profit = 4 products and 2 states 
 2.	Furniture & Supplies lose money every year
 3.	Discounts cost us a lot of money do not discount the big four, upsell instead.
 4.	No real growth outside Q4, run it like seasonal retail, focus on holidays
 5.	Tiny orders kill profit
-Reflection: 
+### Reflection: 
 This project was way more real world than I expected. Spent forever cleaning data, but once that was done everything was easy. Tableau went from I don’t know what I’m doing to second nature. The best part was seeing six figure profit leaks pop out in minutes just by navigating the data right. Honestly this is the first school project that didn’t feel like school, this felt like I built something a company would pay for. Solid preparation for a real job and I’m excited for what’s next.
 
 <img width="432" height="618" alt="image" src="https://github.com/user-attachments/assets/8a73a43d-a5b4-49d2-880c-5f2e482b9586" />
