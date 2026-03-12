@@ -1,5 +1,5 @@
 # Superstore Retail Intelligence Dashboard
-
+![Dashboard Preview](retail-analytics-dashboard-preview.png) 
 ## Project Overview
 > Developed a comprehensive Business Intelligence solution to identify **"profit leaks"** within a national retail dataset. The project focused on optimizing discount strategies and regional inventory allocation.
 
