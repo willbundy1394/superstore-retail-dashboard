@@ -190,4 +190,10 @@ Red = bad, green = good, everything has region/category filters. The flow is sim
 4.	No real growth outside Q4, run it like seasonal retail, focus on holidays
 5.	Tiny orders kill profit
 ### Reflection: 
-This project was way more real world than I expected. Spent forever cleaning data, but once that was done everything was easy. Tableau went from I don’t know what I’m doing to second nature. The best part was seeing six figure profit leaks pop out in minutes just by navigating the data right. Honestly this is the first school project that didn’t feel like school, this felt like I built something a company would pay for. Solid preparation for a real job and I’m excited for what’s next.
+This project served as a deep dive into the "Profit vs. Revenue" paradox. While the Superstore dataset shows healthy top-line growth, the underlying data revealed significant operational fragility.
+
+### Technical Growth:
+I successfully implemented Predictive Forecasting to anticipate seasonal Q4 surges and utilized Prescriptive Analytics (What-If modeling) to quantify the hidden cost of aggressive discounting. This project sharpened my ability to move beyond descriptive "what happened" reporting and into strategic "what should we do" advisory.
+
+### Business Impact:
+The most critical takeaway was the discovery that 80% of profit is concentrated in just two states and four product categories. This insight shifts the business strategy from "growth at all costs" to "targeted optimization," specifically addressing the "profit leaks" in the Furniture category and small-order segments.
