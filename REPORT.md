@@ -3,22 +3,26 @@ Will Bundy
 ### Project Title: Business Analytics Project Report For Superstore Retail
 ### Part 1: Business Problem and Objectives
 Business Domain: Sales & Operations (Retail Analytics)
-Problem Statement: The superstore is making decent sales, but profits are all over the place, some stuff makes money, a lot of stuff loses money. Management doesn’t really know which products, regions, or customers are dragging profits down or which ones are worth pushing harder. Right now, they’re kind of lost with discounts and inventory decisions, so the main goal of this project is to figure out what’s killing or boosting profit and give them clear recommendations.
-Business Questions:
+### Problem Statement: 
+The superstore is making decent sales, but profits are all over the place, some stuff makes money, a lot of stuff loses money. Management doesn’t really know which products, regions, or customers are dragging profits down or which ones are worth pushing harder. Right now, they’re kind of lost with discounts and inventory decisions, so the main goal of this project is to figure out what’s killing or boosting profit and give them clear recommendations.
+### Business Questions:
 1.	Which categories and sub categories are profitable vs. total money losers?
 2.	Which regions/states/cities are performing the best and worst?
 3.	How much discounting is too much, when do discounts start eating all the profit?
 4.	Which customer segment (Consumer, Corporate, Home Office) brings in the most profit?
 5.	Are there any obvious seasonal patterns we can use for planning promotions and stock?
-Why This Matters: Pretty much every retail company lives or dies by its margins. If you keep pushing heavy discounts on stuff that’s already low margin, or you keep stocking things nobody wants in certain states, you can have huge sales numbers but still end up barely breaking even or even worse. Figuring this out with data is way better than guessing.
+### Why This Matters: 
+Pretty much every retail company lives or dies by its margins. If you keep pushing heavy discounts on stuff that’s already low margin, or you keep stocking things nobody wants in certain states, you can have huge sales numbers but still end up barely breaking even or even worse. Figuring this out with data is way better than guessing.
 ### Part 2: Data Source and Preparation
-Data Source(s): The data comes from a file called “Store Dataset for Project.xlsx” that was provided with the assignment. It contains real looking transactional records of a U.S. based superstore chain covering four years of actual orders. Even though it’s a sample file, the numbers, product mix, regional differences, and loss making items all are like what you’d see in a real retail company, so it’s reliable for analysis.
-Dataset Summary:
+### Data Source(s): 
+The data comes from a file called “Store Dataset for Project.xlsx” that was provided with the assignment. It contains real looking transactional records of a U.S. based superstore chain covering four years of actual orders. Even though it’s a sample file, the numbers, product mix, regional differences, and loss making items all are like what you’d see in a real retail company, so it’s reliable for analysis.
+### Dataset Summary:
 •	9,994 rows each row is one line item from a customer order 
 •	21 columns
 •	Time range: January 2014 through December 2017
 •	Key fields: Order Date, Ship Date, Ship Mode, Customer Segment (Consumer/Corporate/Home Office), Region, State, City, Category (Furniture, Office Supplies, Technology), Sub-Category, Product Name, Sales, Quantity, Discount, Profit, etc.
-Data Cleaning & Preparation: Before I could build anything solid, I had to fix a couple of small things in Tableau.
+### Data Cleaning & Preparation: 
+•	Before I could build anything solid, I had to fix a couple of small things in Tableau.
 •	Created a relationship between Sales Data/Zip Codes/Regional Manager
 •	Converted the necessary columns to strings
 •	Order Date and Ship Date were being read as text instead of actual dates so I changed them to proper date format so I could group by month, year, etc.
@@ -27,16 +31,21 @@ Data Cleaning & Preparation: Before I could build anything solid, I had to fix a
 ### Part 3: Descriptive, Diagnostic, Predictive & Prescriptive Analytics
 ### Chart 1: KPI Card - Total Yearly Sales
  
-Insights: The dual line chart shows that 2023 Current Year (CY) sales (blue line) finished the year at $732K, a solid 19.9% increase over Previous Year (PY) sales (grey line). 
-Why It Matters: The 19.9% sales jump in 2023 looks great, but almost all of it came from bigger holiday spikes instead of steady growth, the rest of the year was just as choppy as always. This means we still have zero reliable base business, and everything still depends on Q4.
-
-Business Interpretation: While CY sales were volatile month to month with big spikes in the middle of the year and a huge peak toward the end. Overall, the trend ended strongly upward compared to the much flatter and gradually declining PY performance
+### Insights: 
+The dual line chart shows that 2023 Current Year (CY) sales (blue line) finished the year at $732K, a solid 19.9% increase over Previous Year (PY) sales (grey line). 
+### Why It Matters: 
+The 19.9% sales jump in 2023 looks great, but almost all of it came from bigger holiday spikes instead of steady growth, the rest of the year was just as choppy as always. This means we still have zero reliable base business, and everything still depends on Q4.
+### Business Interpretation: 
+While CY sales were volatile month to month with big spikes in the middle of the year and a huge peak toward the end. Overall, the trend ended strongly upward compared to the much flatter and gradually declining PY performance
 
 ### Chart 2: KPI Card - Total Yearly Profit
  
-Insights: The dual line chart shows that 2023 Current Year profit ended at $94K, a solid 14.9% jump over Previous Year. 
-Why It Matters: Profit grew 14.9% to $94K, but the 2023 monthly profit line is a rollercoaster compared to last year’s slow decline, meaning the extra money came from a few big months, while a lot of months were worse.
-Business Interpretation: The blue CY line is super erratic with huge peaks and deep drops every couple month, while the gray PY line just gently drifts downward the whole year, so we made more money overall, but monthly profits were way less stable than last year.
+### Insights: 
+The dual line chart shows that 2023 Current Year profit ended at $94K, a solid 14.9% jump over Previous Year. 
+### Why It Matters: 
+Profit grew 14.9% to $94K, but the 2023 monthly profit line is a rollercoaster compared to last year’s slow decline, meaning the extra money came from a few big months, while a lot of months were worse.
+### Business Interpretation: 
+The blue CY line is super erratic with huge peaks and deep drops every couple month, while the gray PY line just gently drifts downward the whole year, so we made more money overall, but monthly profits were way less stable than last year.
 
 ### Chart 3: KPI Card - Total Yearly Quantity Sold 
  
